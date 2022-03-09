@@ -1,4 +1,6 @@
 package test;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class NewTestNG {
@@ -23,5 +25,13 @@ public class NewTestNG {
   public void fithname() {
 	  System.out.println("This is 5 testNG");
   }
+  @BeforeTest
+	public void hello1() {
+		System.out.println(" this will run before every test from NewTestNG");
+	}
+  @AfterTest
+	public void hello12() {
+		System.out.println(" this will run after every test from NewTestNG");
+	}
 }
 
