@@ -8,4 +8,24 @@
       <class name="test.Beforesuite"/>
     </classes>
   </test> <!-- Test -->
+<test name="Test1">
+<classes>
+<class name="test.Inculde">
+<methods><include name="login.*"></include></methods>
+</class>
+</classes>
+</test>
+<test name="Test3">
+<classes>
+<class name="test.Exclude">
+<methods>
+<exclude name="singuplogin"></exclude>
+</methods>
+</class>
+</classes>
+</test>
+
+<test name="Test4"><groups><run><include name="logout"></include></run></groups>
+<classes><class name="test.Groups"></class></classes>
+</test>
 </suite> <!-- Suite -->

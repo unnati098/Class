@@ -6,5 +6,9 @@ public class Beforesuite {
 	public void beore() {
 		System.out.println(" @@@@@   BeforeSuite @@@@@@");
 	}
+	@Test
+	public void beoreexclude() {
+		System.out.println(" @@@@@   exculde   @@@@@@");
+	}
 
 }
