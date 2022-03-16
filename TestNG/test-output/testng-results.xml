@@ -1,69 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+<testng-results ignored="4" total="19" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-09T13:25:10 EST" name="Suite" finished-at="2022-03-09T13:25:10 EST" duration-ms="41">
+  <suite started-at="2022-03-16T11:14:57 EDT" name="Suite" finished-at="2022-03-16T11:14:57 EDT" duration-ms="103">
     <groups>
+      <group name="logout">
+        <method signature="Groups.Logout1()[pri:0, instance:test.Groups@2f7298b]" name="Logout1" class="test.Groups"/>
+        <method signature="Groups.logout3()[pri:0, instance:test.Groups@2f7298b]" name="logout3" class="test.Groups"/>
+      </group> <!-- logout -->
     </groups>
-    <test started-at="2022-03-09T13:25:10 EST" name="Test" finished-at="2022-03-09T13:25:10 EST" duration-ms="41">
+    <test started-at="2022-03-16T11:14:57 EDT" name="Test" finished-at="2022-03-16T11:14:57 EDT" duration-ms="46">
       <class name="test.Beforesuite">
-        <test-method is-config="true" signature="beore()[pri:0, instance:test.Beforesuite@be64738]" started-at="2022-03-09T13:25:10 EST" name="beore" finished-at="2022-03-09T13:25:10 EST" duration-ms="5" status="PASS">
+        <test-method signature="beoreexclude()[pri:0, instance:test.Beforesuite@3c130745]" started-at="2022-03-16T11:14:57 EDT" name="beoreexclude" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beore -->
+        </test-method> <!-- beoreexclude -->
       </class> <!-- test.Beforesuite -->
       <class name="test.Test2">
-        <test-method is-config="true" signature="testlogin()[pri:0, instance:test.Test2@22a637e7]" started-at="2022-03-09T13:25:10 EST" name="testlogin" finished-at="2022-03-09T13:25:10 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testlogin()[pri:0, instance:test.Test2@5ae50ce6]" started-at="2022-03-16T11:14:57 EDT" name="testlogin" finished-at="2022-03-16T11:14:57 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogin -->
-        <test-method signature="login()[pri:0, instance:test.Test2@22a637e7]" started-at="2022-03-09T13:25:10 EST" name="login" finished-at="2022-03-09T13:25:10 EST" duration-ms="0" status="PASS">
+        <test-method signature="login()[pri:0, instance:test.Test2@5ae50ce6]" started-at="2022-03-16T11:14:57 EDT" name="login" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="logoutlogin()[pri:0, instance:test.Test2@22a637e7]" started-at="2022-03-09T13:25:10 EST" name="logoutlogin" finished-at="2022-03-09T13:25:10 EST" duration-ms="1" status="PASS">
+        <test-method signature="logoutlogin()[pri:0, instance:test.Test2@5ae50ce6]" started-at="2022-03-16T11:14:57 EDT" name="logoutlogin" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutlogin -->
-        <test-method signature="signlogin()[pri:0, instance:test.Test2@22a637e7]" started-at="2022-03-09T13:25:10 EST" name="signlogin" finished-at="2022-03-09T13:25:10 EST" duration-ms="1" status="PASS">
+        <test-method signature="signlogin()[pri:0, instance:test.Test2@5ae50ce6]" started-at="2022-03-16T11:14:57 EDT" name="signlogin" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signlogin -->
-        <test-method signature="singuplogin()[pri:0, instance:test.Test2@22a637e7]" started-at="2022-03-09T13:25:10 EST" name="singuplogin" finished-at="2022-03-09T13:25:10 EST" duration-ms="1" status="PASS">
+        <test-method signature="singuplogin()[pri:0, instance:test.Test2@5ae50ce6]" started-at="2022-03-16T11:14:57 EDT" name="singuplogin" finished-at="2022-03-16T11:14:57 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singuplogin -->
-        <test-method is-config="true" signature="hello()[pri:0, instance:test.Test2@22a637e7]" started-at="2022-03-09T13:25:10 EST" name="hello" finished-at="2022-03-09T13:25:10 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="hello()[pri:0, instance:test.Test2@5ae50ce6]" started-at="2022-03-16T11:14:57 EDT" name="hello" finished-at="2022-03-16T11:14:57 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hello -->
       </class> <!-- test.Test2 -->
       <class name="test.NewTestNG">
-        <test-method is-config="true" signature="hello1()[pri:0, instance:test.NewTestNG@7880cdf3]" started-at="2022-03-09T13:25:10 EST" name="hello1" finished-at="2022-03-09T13:25:10 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="hello1()[pri:0, instance:test.NewTestNG@22a637e7]" started-at="2022-03-16T11:14:57 EDT" name="hello1" finished-at="2022-03-16T11:14:57 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hello1 -->
-        <test-method signature="fithname()[pri:0, instance:test.NewTestNG@7880cdf3]" started-at="2022-03-09T13:25:10 EST" name="fithname" finished-at="2022-03-09T13:25:10 EST" duration-ms="4" status="PASS">
+        <test-method signature="fithname()[pri:0, instance:test.NewTestNG@22a637e7]" started-at="2022-03-16T11:14:57 EDT" name="fithname" finished-at="2022-03-16T11:14:57 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fithname -->
-        <test-method signature="forthname()[pri:1, instance:test.NewTestNG@7880cdf3]" started-at="2022-03-09T13:25:10 EST" name="forthname" finished-at="2022-03-09T13:25:10 EST" duration-ms="1" status="PASS">
+        <test-method signature="forthname()[pri:1, instance:test.NewTestNG@22a637e7]" started-at="2022-03-16T11:14:57 EDT" name="forthname" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forthname -->
-        <test-method signature="firstname()[pri:3, instance:test.NewTestNG@7880cdf3]" started-at="2022-03-09T13:25:10 EST" name="firstname" finished-at="2022-03-09T13:25:10 EST" duration-ms="1" status="PASS">
+        <test-method signature="firstname()[pri:3, instance:test.NewTestNG@22a637e7]" started-at="2022-03-16T11:14:57 EDT" name="firstname" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstname -->
-        <test-method signature="secondname()[pri:4, instance:test.NewTestNG@7880cdf3]" started-at="2022-03-09T13:25:10 EST" name="secondname" finished-at="2022-03-09T13:25:10 EST" duration-ms="0" status="PASS">
+        <test-method signature="secondname()[pri:4, instance:test.NewTestNG@22a637e7]" started-at="2022-03-16T11:14:57 EDT" name="secondname" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondname -->
-        <test-method is-config="true" signature="hello12()[pri:0, instance:test.NewTestNG@7880cdf3]" started-at="2022-03-09T13:25:10 EST" name="hello12" finished-at="2022-03-09T13:25:10 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="hello12()[pri:0, instance:test.NewTestNG@22a637e7]" started-at="2022-03-16T11:14:57 EDT" name="hello12" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hello12 -->
       </class> <!-- test.NewTestNG -->
     </test> <!-- Test -->
+    <test started-at="2022-03-16T11:14:57 EDT" name="Test1" finished-at="2022-03-16T11:14:57 EDT" duration-ms="4">
+      <class name="test.Inculde">
+        <test-method signature="login1()[pri:0, instance:test.Inculde@481a996b]" started-at="2022-03-16T11:14:57 EDT" name="login1" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method signature="login2()[pri:0, instance:test.Inculde@481a996b]" started-at="2022-03-16T11:14:57 EDT" name="login2" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+      </class> <!-- test.Inculde -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-03-16T11:14:57 EDT" name="Test3" finished-at="2022-03-16T11:14:57 EDT" duration-ms="3">
+      <class name="test.Exclude">
+        <test-method signature="logoutlogin()[pri:0, instance:test.Exclude@708f5957]" started-at="2022-03-16T11:14:57 EDT" name="logoutlogin" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutlogin -->
+        <test-method signature="signlogin()[pri:0, instance:test.Exclude@708f5957]" started-at="2022-03-16T11:14:57 EDT" name="signlogin" finished-at="2022-03-16T11:14:57 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signlogin -->
+      </class> <!-- test.Exclude -->
+    </test> <!-- Test3 -->
+    <test started-at="2022-03-16T11:14:57 EDT" name="Test4" finished-at="2022-03-16T11:14:57 EDT" duration-ms="4">
+      <class name="test.Groups">
+        <test-method signature="Logout1()[pri:0, instance:test.Groups@2f7298b]" started-at="2022-03-16T11:14:57 EDT" name="Logout1" finished-at="2022-03-16T11:14:57 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout1 -->
+        <test-method signature="logout3()[pri:0, instance:test.Groups@2f7298b]" started-at="2022-03-16T11:14:57 EDT" name="logout3" finished-at="2022-03-16T11:14:57 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout3 -->
+      </class> <!-- test.Groups -->
+      <class name="test.Beforesuite">
+        <test-method is-config="true" signature="beore()[pri:0, instance:test.Beforesuite@3c130745]" started-at="2022-03-16T11:14:57 EDT" name="beore" finished-at="2022-03-16T11:14:57 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beore -->
+      </class> <!-- test.Beforesuite -->
+    </test> <!-- Test4 -->
   </suite> <!-- Suite -->
 </testng-results>
